@@ -4,62 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Похоронное бюро</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
     <body>
         <header>
             <a href="/" id="logo"><img src="/images/logo.png" alt="Logo" /></a>
             <nav>
-                <button class="btn">Главная</button>
-                <button class="btn">Услуги</button>
-                <button class="btn">Контакты</button>
+                <a href="#" class="btn">Главная</a>
+                <a href="#" class="btn">Услуги</a>
+                <a href="#" class="btn">Контакты</a>
             </nav>
         </header>
         
         <main>
-            <div id="name-container">
+            <section id="name-container">
                 <h1>
                     НАЗВАНИЕ
                 </h1>
                 <h2>
                     СЛОГАН
                 </h2>
-            </div>
+            </section>
 
-            <div id="services-container">
-                <h1>Наши услуги</h1>
+            <section id="services-container">
+                <h1 id="services">Наши услуги</h1>
                 <div id="card-container">
-                    <div class="card">
+                    <section class="card">
                         <img src="/images/service1.png"/>
                         <h2>Услуга 1</h2>
                         <p>
                             Описание услуги 1
                         </p>
                         <a href="/contact"><button>Связаться</button></a>
-                    </div>
-                    <div class="card">
+                    </section>
+                    <section class="card">
                         <img src="/images/service2.png"/>
                         <h2>Услуга 2</h2>
                         <p>
                             Описание услуги 2
                         </p>
                         <a href="/contact"><button>Связаться</button></a>
-                    </div>
-                    <div class="card">
+                    </section>
+                    <section class="card">
                         <img src="/images/service3.png"/>
                         <h2>Услуга 3</h2>
                         <p>
                             Описание услуги 3
                         </p>
                         <a href="/contact"><button>Связаться</button></a>
-                    </div>
+                    </section>
                 </div>
-            </div>
+            </section>
 
-            <article id="about">
-                <section>
+            <section id="about">
+                <article>
                     xxxxxxx - специализированная служба по вопросам похоронного дела села Средний Васюган.
                 </section>
-                <section>
+                <article>
                     xxxxxxx - специализируется в:
                     <ul>
                         <li>
@@ -75,36 +76,38 @@
                             кремации
                         </li>
                     </ul>
-                </section>
-            </article>
-            <pre>
-                ________                       __     
-                |        \                    |  \    
-                 \$$$$$$$$______   __    __  _| $$_   
-                   | $$  /      \ |  \  /  \|   $$ \  
-                   | $$ |  $$$$$$\ \$$\/  $$ \$$$$$$  
-                   | $$ | $$    $$  >$$  $$   | $$ __ 
-                   | $$ | $$$$$$$$ /  $$$$\   | $$|  \
-                   | $$  \$$     \|  $$ \$$\   \$$  $$
-                    \$$   \$$$$$$$ \$$   \$$    \$$$$ 
-            </pre>
-
-            <code>
-                <pre>
-                    try {
-                        Console.Write("Input a number: ");
-                        num = int.Parse(Console.ReadLine());
-                    } catch {
-                        throw new Exception("Incorrect input!");
-                    }
+                </article>
+            </section>
+            <aside>
+                <pre id="reformatted">
+                    ________                       __     
+                    |        \                    |  \    
+                     \$$$$$$$$______   __    __  _| $$_   
+                       | $$  /      \ |  \  /  \|   $$ \  
+                       | $$ |  $$$$$$\ \$$\/  $$ \$$$$$$  
+                       | $$ | $$    $$  >$$  $$   | $$ __ 
+                       | $$ | $$$$$$$$ /  $$$$\   | $$|  \
+                       | $$  \$$     \|  $$ \$$\   \$$  $$
+                        \$$   \$$$$$$$ \$$   \$$    \$$$$ 
                 </pre>
-            </code>
-
-            <pre>
-                Ушел мужик в монастырь, дал обет молчания, но раз в <b>9 лет</b> можно было сказать три слова.
-                <strong>Прошло 3<sup>3</sup> лет.</strong>
-                – Забыл сколько можно слов говорить. Да и в принципе идея так себе была, даже не записал нигде свой обет. Теперь перед мужиками опозорюсь, лучше домой пойду обратно
-            </pre>
+            
+                <code>
+                    <pre>
+                        try {
+                            Console.Write("Input a number: ");
+                            num = int.Parse(Console.ReadLine());
+                        } catch {
+                            throw new Exception("Incorrect input!");
+                        }
+                    </pre>
+                </code>
+            
+                <pre>
+                    <span id="underline">Ушел мужик в монастырь</span>, <span id="crossed">дал обет молчания</span>, но раз в <b>9 лет</b> можно было <span id="caps">сказать три слова</span>.
+                    <strong>Прошло 3<sup>3</sup> лет.</strong>
+                    – Забыл сколько можно слов говорить. Да и в принципе идея так себе была, даже не записал нигде свой обет. Теперь перед мужиками опозорюсь, лучше домой пойду обратно
+                </pre>
+            </aside>
         </main>
 
         <footer>
