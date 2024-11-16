@@ -1,0 +1,101 @@
+#head-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 70px;
+}
+
+#menu {
+    margin-left: auto;
+    height: 100%;
+}
+
+.btn {
+    height: 100%;
+    width: 200px;
+}
+
+#logo {
+    height: 100%;
+    width: 200px;
+}
+
+main {
+    margin-top: 15px;
+}
+
+#name-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    line-height: 10px;
+    font-weight: 200;
+    color: brown;
+    white-space: inherit;
+}
+
+#services {
+    text-align: center;
+}
+
+#card-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+}
+
+.card-img {
+    height: 200px;
+    width: 100%;
+}
+
+#about {
+    width: 100%;
+}
+
+#about section {
+    margin-top: 5px;
+}
+
+.about-list-element {
+    margin-top: 5px;
+}
+
+#foo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.footer-element {
+    margin: 0 5px 0px 5px;
+}
+
+
+
+/* temp */
+
+#reformatted {
+    font-size: 20px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#crossed {
+    text-decoration: line-through;
+}
+
+#caps {
+    text-transform: uppercase;
+}
