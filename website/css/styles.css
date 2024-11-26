@@ -1,11 +1,11 @@
-#head-menu {
+.head-menu {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     height: 70px;
 }
 
-#menu {
+.menu {
     margin-left: auto;
     height: 100%;
 }
@@ -15,7 +15,7 @@
     width: 200px;
 }
 
-#logo {
+.logo {
     height: 100%;
     width: 200px;
 }
@@ -24,7 +24,7 @@ main {
     margin-top: 15px;
 }
 
-#name-container {
+.name-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,11 +38,11 @@ main {
     white-space: inherit;
 }
 
-#services {
+.services {
     text-align: center;
 }
 
-#card-container {
+.card-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -58,11 +58,11 @@ main {
     width: 100%;
 }
 
-#about {
+.about {
     width: 100%;
 }
 
-#about section {
+.about section {
     margin-top: 5px;
 }
 
@@ -70,7 +70,7 @@ main {
     margin-top: 5px;
 }
 
-#foo {
+.foo {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -84,18 +84,18 @@ main {
 
 /* temp */
 
-#reformatted {
+.reformatted {
     font-size: 20px;
 }
 
-#underline {
+.underline {
     text-decoration: underline;
 }
 
-#crossed {
+.crossed {
     text-decoration: line-through;
 }
 
-#caps {
+.caps {
     text-transform: uppercase;
 }
