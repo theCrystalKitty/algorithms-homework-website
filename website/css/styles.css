@@ -36,6 +36,7 @@ main {
     font-weight: 200;
     color: brown;
     white-space: inherit;
+    padding-bottom: 300px;
 }
 
 .services {
@@ -99,7 +100,7 @@ main {
 
 .absolute {
     position: absolute;
-    top: 100px;
+    top: 300px;
     max-width: 200px;
 }
 
