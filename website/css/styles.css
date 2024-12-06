@@ -55,7 +55,7 @@ main {
 
 .card-img {
     height: 200px;
-    width: 100%;
+    width: 200px;
 }
 
 .about {
@@ -88,6 +88,10 @@ main {
 
     .card {
         width: 50%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -96,6 +100,7 @@ main {
 .absolute {
     position: absolute;
     top: 10px;
+    max-width: 580px;
 }
 
 .table-container {
@@ -133,6 +138,9 @@ main {
     .table {
         table-layout: auto;
     }
+    .absolute {
+        max-width: 500px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -141,5 +149,8 @@ main {
     }
     .table-cell {
         padding: 10px;
+    }
+    .absolute {
+        max-width: 200px;
     }
 }
