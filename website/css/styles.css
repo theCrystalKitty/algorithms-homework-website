@@ -139,7 +139,7 @@ main {
         table-layout: auto;
     }
     .absolute {
-        max-width: 500px;
+        max-width: 200px;
     }
 }
 
@@ -149,8 +149,5 @@ main {
     }
     .table-cell {
         padding: 10px;
-    }
-    .absolute {
-        max-width: 200px;
     }
 }
