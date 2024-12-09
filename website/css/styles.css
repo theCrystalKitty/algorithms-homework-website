@@ -104,6 +104,43 @@ main {
     }
 }
 
+.btn {
+	background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color: #007dc1;
+	border-radius: 3px;
+	border: 1px solid #124d77;
+	display: inline-block;
+	cursor: pointer;
+	color:white;
+	text-decoration: none;
+    text-align: center;
+	line-height: 70px;
+	height: 70px; 
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-selected {
+    background: linear-gradient(to bottom, #005b8b 5%, #003d68 100%);
+	background-color: #007dc1;
+	border-radius: 3px;
+	border: 1px solid #124d77;
+	display: inline-block;
+	cursor: default;
+	color:white;
+	text-decoration: none;
+    text-align: center;
+	line-height: 70px;
+	height: 70px;
+    width: 200px;
+}
+
 /* temp */
 
 .absolute {
@@ -155,4 +192,9 @@ main {
     .table-cell {
         padding: 10px;
     }
+}
+
+#load-time {
+    text-align: center;
+    font-size: 20px;
 }
