@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Похоронное бюро</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+    <body>
+        <header class="head-menu">
+            <a href="../../" class="logo absolute"><img src="../../img/TEMP.png" class="logo" alt="Logo" /></a>
+            <nav class="menu">
+                <a href="../../" class="btn">Главная</a>
+                <a href="../../services" class="btn">Услуги</a>
+                <a href="../../contacts" class="btn">Контакты</a>
+                <a href="../../temp/grid" class="btn">Список дел</a>
+            </nav>
+        </header>
+        
+        <main>
+            <form id="add-task">
+                <label for="name">Название</label>
+                <input type="text" placeholder="Название" name="name" required>
+                <label for="type">Что сделать</label>
+                <input type="text" placeholder="Что сделать" name="todo" required>
+                <button type="submit" class="btn" id="add-btn">Add</button>
+            </form>
+            <section class="clear">
+                <button class="btn" id="clear-btn">Clear</button>
+            </section>
+
+            <section class="table-container">
+                <table class="table">
+                    <thead class="table-head">
+                        <tr>
+                            <th class="table-cell">Название</th>
+                            <th class="table-cell">Что сделать</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+
+                    </tbody>
+                </table>
+            </section>
+
+            <aside id="load-time">
+
+            </aside>
+        </main>
+
+        <footer class="foo">
+            <a href="../../privacy" class="footer-element">Политика конфидециальности</a> 
+            |
+            <a href="../../contact" class="footer-element">Контакты</a>
+        </footer>
+
+        <script src="../../scripts/script.js"></script>
+        <script src="../../scripts/grid.js" defer></script>
+    </body>
+</html>
